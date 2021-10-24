@@ -25,8 +25,9 @@
 </head>
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
-      <a class="ui circular image" href="http://dsce.edu.in"><img src="../images/dscelogo.jpg"></a>
-  <a href="../titles.php">Virtual Labs</a>
+      <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
+      <a href="titles.php">Virtual Labs</a> 
+  <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>

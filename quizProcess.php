@@ -4,7 +4,7 @@ if($_POST)
 {
   $servername = "localhost:3306";
   $db_username = "root";
-  $password = "1234";
+  $password = "";
   $dbname = "virtuallabsdsce";
 
   // Create connection

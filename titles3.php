@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <?php
-if(session_status()==PHP_SESSION_NONE)
-{
-  session_start();
+// if(session_status()==PHP_SESSION_NONE)
+// {
+//   session_start();
   // if(!isset($_SESSION['username']))
   // {
   //   header("Location: index.php");
   //   exit;
   // }
-}
+// }
 ?>
 <html>
 <head>
@@ -33,18 +33,16 @@ if(session_status()==PHP_SESSION_NONE)
 <div id="toTop"><i class="chevron up icon"></i></div>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div class="ui  light grey inverted secondary huge menu">
-  <a class="header item" href="index.php">
+  <a class="header item" href="titles.php">
     Home
   </a>
  <a class="item">
     About Us
   </a> 
-  <a class="header item" href="titles3.php">
-    3rd Semester
-  </a> 
-  <a class="header item" href="titles5.php">
-    5th Semester
-  </a> 
+   
+   <a class="header item" href="titles3.php">
+    3rd semester
+  </a>
 </div>
 </div>
 <div id="toTop"><i class="chevron up icon"></i></div>
@@ -91,7 +89,7 @@ if(session_status()==PHP_SESSION_NONE)
         <div class="ui raised card" id="car3">
        <div class="content" id="Card3">
       <div class="header">
-         <a href="co.php" >
+         <a href="CO\co.php" >
              Computer Organisation
          </a>
       </div>
@@ -101,7 +99,7 @@ if(session_status()==PHP_SESSION_NONE)
              Contains educational videos on Computer Organisation (CO)
            </span>
            <br><br>
-           <a class="ui button" href="co.php" >Go</a>
+           <a class="ui button" href="CO\co.php" >Go</a>
          </div>
   
       </div>
@@ -111,7 +109,7 @@ if(session_status()==PHP_SESSION_NONE)
         <div class="ui raised card" id="car4">
        <div class="content" id="Card4">
       <div class="header">
-         <a href="ld.php" >
+         <a href="Logic design\logicdesign1.php" >
              Logic Design
          </a>
       </div>
@@ -121,34 +119,31 @@ if(session_status()==PHP_SESSION_NONE)
              Contains educational videos on Logic Design (LD)
            </span>
            <br><br>
-           <a class="ui button" href="ld.php" >Go</a>
+           <a class="ui button" href="Logic design\logicdesign1.php" >Go</a>
          </div>
   
       </div>
       </div>
-      
-    <div class="four wide column">
-        <div class="ui  raised card" id="car5">
-       <div class="content" id="Card5">
+
+      <div class="four wide column">
+        <div class="ui raised card" id="car2">
+       <div class="content" id="Card2">
       <div class="header">
-         <a href="cn.php" >
-             Computer Networks Laboratory
+         <a href="Daa\daa.php">
+         Data Analysis And Algorithm
          </a>
       </div>
        </div>
          <div class="content">
            <span class="CardBody">
-             Contains 12 Experiments On Computer Networks in Cisco Packet Tracer
+           Contains 7 Programs with Applications On Data Analysis and algorithm in C Programming Language
            </span>
            <br><br>
-           <a class="ui button" href="datastructures.php" >Go</a>
+           <a class="ui button" href="Daa\daa.php" >Go</a>
          </div>
-  
-      </div>
-      </div>
-      </div>
+    </div>
+  </div>
       
-    
   </div>
     </div>
   </div>

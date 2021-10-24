@@ -26,7 +26,8 @@
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
       <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
-  <a href="titles.php">Virtual Labs</a>
+      <a href="titles.php">Virtual Labs</a> 
+  <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
@@ -85,9 +86,9 @@
           <a class="item" href="problem1.php">Problem-1</a>
           <a class="item" href="problem2.php">Problem-2</a>
           <a class="item" href="problem3.php">Problem-3</a>
-          <a class="item" href="#">Exception Handling</a>
-          <a class="item" href="#">Multithreaded Programming</a>
-          <a class="item" href="#">Generics and String handling</a>
+          <a class="item" href="OppsWithJava\exceptionalhand.php">Exception Handling</a>
+          <a class="item" href="OppsWithJava\threads.php">Multithreaded Programming</a>
+          <a class="item" href="OppsWithJava\generic.php">Generics and String handling</a>
         </div>
       </div>
       

@@ -1,13 +1,13 @@
 <?php
-// if(session_status()==PHP_SESSION_NONE)
-// {
-//   session_start();
-//   if(!isset($_SESSION['username']))
-//   {
-//     header("Location: index.php");
-//     exit;
-//   }
-// }
+if(session_status()==PHP_SESSION_NONE)
+{
+  session_start();
+  if(!isset($_SESSION['username']))
+  {
+    header("Location: index.php");
+    exit;
+  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -191,7 +191,7 @@ void main()
       <?php
         $servername = "localhost:3306";
         $db_username = "root";
-        $password = "1234";
+        $password = "";
         $dbname = "virtuallabsdsce";
 
         // Create connection

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <?php
-if(session_status()==PHP_SESSION_NONE)
-{
-  session_start();
+// if(session_status()==PHP_SESSION_NONE)
+// {
+//   session_start();
   // if(!isset($_SESSION['username']))
   // {
   //   header("Location: index.php");
   //   exit;
   // }
-}
+// }
 ?>
 <html>
 <head>
@@ -28,7 +28,8 @@ if(session_status()==PHP_SESSION_NONE)
 
 <h1 class="ui header" style="text-align:center" id = "head">
       <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
-  <a href="titles.php">Virtual Labs</a>
+      <a href="titles.php">Virtual Labs</a> 
+  <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
 <div id="toTop"><i class="chevron up icon"></i></div>
@@ -39,12 +40,13 @@ if(session_status()==PHP_SESSION_NONE)
  <a class="item">
     About Us
   </a> 
-  <a class="header item" href="titles3.php">
-    3rd Semester
-  </a> 
+   
+   <a class="header item" href="titles3.php">
+    3rd semester
+  </a>
   <a class="header item" href="titles5.php">
-    5th Semester
-  </a> 
+    5th semester
+  </a>
 </div>
 </div>
 <div id="toTop"><i class="chevron up icon"></i></div>
@@ -91,7 +93,7 @@ if(session_status()==PHP_SESSION_NONE)
         <div class="ui raised card" id="car3">
        <div class="content" id="Card3">
       <div class="header">
-         <a href="co.php" >
+         <a href="CO\co.php" >
              Computer Organisation
          </a>
       </div>
@@ -101,7 +103,7 @@ if(session_status()==PHP_SESSION_NONE)
              Contains educational videos on Computer Organisation (CO)
            </span>
            <br><br>
-           <a class="ui button" href="co.php" >Go</a>
+           <a class="ui button" href="CO\co.php" >Go</a>
          </div>
   
       </div>
@@ -111,7 +113,7 @@ if(session_status()==PHP_SESSION_NONE)
         <div class="ui raised card" id="car4">
        <div class="content" id="Card4">
       <div class="header">
-         <a href="ld.php" >
+         <a href="Logic design\logicdesign1.php" >
              Logic Design
          </a>
       </div>
@@ -121,31 +123,30 @@ if(session_status()==PHP_SESSION_NONE)
              Contains educational videos on Logic Design (LD)
            </span>
            <br><br>
-           <a class="ui button" href="ld.php" >Go</a>
+           <a class="ui button" href="Logic design\logicdesign1.php" >Go</a>
          </div>
   
       </div>
       </div>
-      
-    <div class="four wide column">
-        <div class="ui  raised card" id="car5">
-       <div class="content" id="Card5">
+
+      <div class="four wide column">
+        <div class="ui raised card" id="car2">
+       <div class="content" id="Card2">
       <div class="header">
-         <a href="cn.php" >
-             Computer Networks Laboratory
+         <a href="Daa\daa.php">
+         Data Analysis And Algorithm
          </a>
       </div>
        </div>
          <div class="content">
            <span class="CardBody">
-             Contains 12 Experiments On Computer Networks in Cisco Packet Tracer
+           Contains 7 Programs with Applications On Data Analysis and algorithm in C Programming Language
            </span>
            <br><br>
-           <a class="ui button" href="datastructures.php" >Go</a>
+           <a class="ui button" href="Daa\daa.php" >Go</a>
          </div>
-  
-      </div>
-      </div>
+    </div>
+  </div>
       
       <div class="four wide column">
         <div class="ui raised card" id="car6">
@@ -166,24 +167,199 @@ if(session_status()==PHP_SESSION_NONE)
   
       </div>
       </div>
-  
+
       <div class="four wide column">
-        <div class="ui raised card">
-       <div class="content" id="Card7">
+      <div class="ui raised card" id="car1">
+       <div class="content" id="Card1">
       <div class="header">
-         <a href="english.php" >
-             English Language
+            <a href="computernetwork.php">
+             Computer Networks
+            </a></div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+           A computer network is a set of computers sharing resources located on or provided by network nodes.
+           </span>
+           <br><br>
+           <a class="ui button" href="computernetwork.php" >Go</a>
+         </div>
+      </div>
+    </div>
+
+    <div class="four wide column">
+        <div class="ui raised card" id="car2">
+       <div class="content" id="Card2">
+      <div class="header">
+         <a href="aiml.php">
+             Artificial Intelligence & ML
          </a>
       </div>
        </div>
          <div class="content">
            <span class="CardBody">
-             Contains educational videos on Learning the English Language better
+           Artificial intelligence (AI) is  concerned with building smart machines capable of performing tasks.
            </span>
            <br><br>
-           <a class="ui button" href="english.php">Go</a>
+           <a class="ui button" href="aiml.php" >Go</a>
          </div>
-  
+    </div>
+  </div>
+
+    <div class="four wide column">
+        <div class="ui raised card" id="car3">
+       <div class="content" id="Card3">
+      <div class="header">
+         <a href="nlp.php" >
+            Natural language processing
+         </a>
+      </div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+            NLP is concerned with giving computers the ability to understand text and spoken words.
+           </span>
+           <br><br>
+           <a class="ui button" href="nlp.php" >Go</a>
+         </div>
+
+      </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui raised card" id="car4">
+       <div class="content" id="Card4">
+      <div class="header">
+         <a href="sf.php" >
+             Software engineering
+         </a>
+      </div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+           Software engineering is the systematic application of engineering for development of software.
+           </span>
+           <br><br>
+           <a class="ui button" href="sf.php" >Go</a>
+         </div>
+
+      </div>
+      </div>
+
+    <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+       <div class="content" id="Card5">
+      <div class="header">
+         <a href="cn.php" >
+             Computer Networks Laboratory
+         </a>
+      </div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+             Contains 12 Experiments On Computer Networks in Cisco Packet Tracer
+           </span>
+           <br><br>
+           <a class="ui button" href="cn.php" >Go</a>
+         </div>
+
+      </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui raised card" id="car6">
+       <div class="content" id="Card6">
+      <div class="header">
+         <a href="oomd.php" >
+             Object oriented modeling and design
+         </a>
+      </div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+           Object-oriented modeling is an approach to modeling an application that is used at the beginning of the software life cycle.
+           </span>
+           <br><br>
+           <a class="ui button" href="oomd.php" >Go</a>
+         </div>
+
+      </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui raised card">
+       <div class="content" id="Card7">
+      <div class="header">
+         <a href="mad.php" >
+            Mobile application development
+         </a>
+      </div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+           Mobile application development is the process of creating software applications that run on a mobile device.
+           </span>
+           <br><br>
+           <a class="ui button" href="mad.php">Go</a>
+         </div>
+
+      </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui raised card">
+       <div class="content" id="Card8">
+      <div class="header">
+         <a href="management.php" >
+             Management enterpreneurship
+         </a>
+      </div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+           Practice of taking entrepreneurial knowledge and utilizing it for increasing the effectiveness of new business venturing.
+           </span>
+           <br><br>
+           <a class="ui button" href="management.php">Go</a>
+         </div>
+
+      </div>
+      </div>
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+       <div class="content" id="Card5">
+      <div class="header">
+         <a href="aimllab.php" >
+             AIML labs
+         </a>
+      </div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+             Contains 10 labs on AIML.
+           </span>
+           <br><br>
+           <a class="ui button" href="aimllab.php" >Go</a>
+         </div>
+
+      </div>
+      </div>
+      <div class="four wide column">
+        <div class="ui  raised card" id="car5">
+       <div class="content" id="Card5">
+      <div class="header">
+         <a href="et.php" >
+             Emerging technologies
+         </a>
+      </div>
+       </div>
+         <div class="content">
+           <span class="CardBody">
+           Emerging technologies are technologies whose development, practical applications are still not figured out.
+           </span>
+           <br><br>
+           <a class="ui button" href="et.php" >Go</a>
+         </div>
+
       </div>
       </div>
 

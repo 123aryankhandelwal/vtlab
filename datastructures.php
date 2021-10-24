@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/Semantic/semantic.min.css">
   <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="css/Semantic/semantic.min.js"></script>
+  <script src="css/Semantic/semantic.min.js"></script> 
   <script src="js/script.js"></script>
   <link rel="stylesheet" href="css/home.css">
   <link rel="icon" href="images\dscelogo.png">
@@ -26,7 +26,8 @@
 <body>
 <h1 class="ui header" style="text-align:center" id = "head">
       <a class="ui circular image" href="http://dsce.edu.in"><img src="images/dscelogo.jpg"></a>
-  <a href="titles.php">Virtual Labs</a>
+      <a href="titles.php">Virtual Labs</a> 
+  <br><p style="font-size:25px;margin-top:10px; text-align: center;">A Self Learning initiative by the Department of Computer Science</p>
 </h1>
 <div id="toTop"><i class="chevron up icon"></i></div>
   <div>
@@ -38,13 +39,13 @@
     About Us
   </a> 
   <?php
-    if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
-    else 
-    { 
-      echo "<a class=\"item\">"; 
-      echo $_SESSION['username'];
-      echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
-    }
+    // if(!isset($_SESSION["username"])) echo "<a class=\"item\" href=\"login.php\">Login</a><a class=\"item\" href=\"register.php\">Register</a>";
+    // else 
+    // { 
+    //   echo "<a class=\"item\">"; 
+    //   echo $_SESSION['username'];
+    //   echo "</a><a class=\"item\" href=\"logoutprocess.php\">Logout</a>";
+    // }
     ?>
 </div>
 </div>
@@ -83,49 +84,37 @@
       <button class="ui icon dropdown button">
         <span class="text">Operations on Stack</span>
         <div class="menu">
-          <a class="item" href="stack.php">Stack</a>
-          <a class="item" href="infixtopostfix.php">Infix to Postfix</a>
-          <a class="item" href="ratmaze.php">Maze</a>
+          <a class="item" href="DSA\stack.php">Stack</a>
         </div>
       </button><br>
       <button class="ui icon dropdown button">
         <span class="text">Operations on Queue</span>
         <div class="menu">
-          <a class="item" href="queue.php">Queue</a>
-          <a class="item" href="queue.php">Calculator</a>
-          <a class="item" href="queue.php">Maze</a>
+          <a class="item" href="DSA\queue.php">Queue</a>
         </div>
       </button><br>
       <div class="ui icon dropdown button">
         <span class="text">Operations on Singly Linked List</span>
         <div class="menu">
-          <a class="item" href="singlylinkedlist.php">Singly Linked List</a>
-          <a class="item" href="singlylinkedlist.php">Calculator</a>
-          <a class="item" href="singlylinkedlist.php">Maze</a>
+          <a class="item" href="DSA\singlylinkedlist.php">Singly Linked List</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
         <span class="text">Operations on Doubly Linked List</span>
         <div class="menu">
-          <a class="item" href="stack.php">Stack</a>
-          <a class="item" href="stack.php">Calculator</a>
-          <a class="item" href="stack.php">Maze</a>
+          <a class="item" href="DSA\doublell.php"> Doubly Linked List</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
         <span class="text">Binary Tree</span>
         <div class="menu">
-          <a class="item" href="stack.php">Stack</a>
-          <a class="item" href="stack.php">Calculator</a>
-          <a class="item" href="stack.php">Maze</a>
+          <a class="item" href="DSA\Btree.php">Binary Tree</a>
         </div>
       </div><br>
       <div class="ui icon dropdown button">
-        <span class="text">Preorder Traversal in Binary Search Tree</span>
+        <span class="text">Binary Search Tree</span>
         <div class="menu">
-          <a class="item" href="stack.php">Stack</a>
-          <a class="item" href="stack.php">Calculator</a>
-          <a class="item" href="stack.php">Maze</a>
+          <a class="item" href="DSA\BST.php">Binary Search Tree</a>
         </div>
       </div><br>
       </div>

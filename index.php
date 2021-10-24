@@ -59,16 +59,23 @@
   <span class="item">To <strong>collaborate with industry partners and professional societies</strong> and make the students industry ready.</span>
   <span class="item">To encourage innovation through <strong>multidisciplinary research and development activities.</strong></span>
   <span class="item">To inculcate human values and ethics in students and groom them to be responsible citizens.</span>
-  </div><br><br>
+  </div><br>
 
   <i style="font-size:15px;">The department Vision - Mission statements are formulated in accordance with the goals and objectives of the department keeping Institutional goals and objectives under consideration.</i><br><br>
 
   <div>
-    <img src="images/HOD.jpg" style="border-radius:150px; width:150px; margin-left:50px; margin-right: 15px; display: inline; float: left;">
-    <p style="display: inline; font-size: 17px;"> The Department of Computer Science and Engineering is positioned to create the technological leaders of tomorrow. Our goal is to ensure that our engineering graduates are well prepared to play the roles of problem solvers, project leaders, entrepreneurs, and above all ethical citizens of a global society. Our objective is to empower our students with latest technical knowledge and skills to meet global challenges. We provide them with the best teaching faculty, state-of-the-art technologies, excellent research and development environment and internships. Our aim is to provide professional grooming and guidance so that our students mould into thorough professionals and inspiring individuals when they enter into the real-time environment. <br><br>
-    <strong>Dr. Ramesh Babu D. R.</strong><br>
+    <div class="headerr">Few of the Benifits of Using Virtual Labs</div><br>
+    <div style="font-size:17px;" class="ui bulleted list">
+      <span class="item">This platform allows students to <strong>remotely access</strong> the labs material.</span>
+      <span class="item">This platform facilitates <strong>individual skill development</strong> through additional self learning.</span>
+      <span class="item">This platform can be utilised to implement the <strong>flipped class</strong> learning environment.</span>
+      <span class="item">We can have a <strong>centralised repository</strong> of materials of all subjects through this platform.</span>
+    </div>
+    <!-- <img src="images/HOD.jpg" style="border-radius:150px; width:150px; margin-left:50px; margin-right: 15px; display: inline; float: left;"> -->
+    <!-- <p style="display: inline; font-size: 17px;"> The Department of Computer Science and Engineering is positioned to create the technological leaders of tomorrow. Our goal is to ensure that our engineering graduates are well prepared to play the roles of problem solvers, project leaders, entrepreneurs, and above all ethical citizens of a global society. Our objective is to empower our students with latest technical knowledge and skills to meet global challenges. We provide them with the best teaching faculty, state-of-the-art technologies, excellent research and development environment and internships. Our aim is to provide professional grooming and guidance so that our students mould into thorough professionals and inspiring individuals when they enter into the real-time environment. <br><br> -->
+    <!-- <strong>Dr. Ramesh Babu D. R.</strong><br>
     Vice-Principal,<br>
-    Professor & Head of the Department.</p> <br><br>
+    Professor & Head of the Department.</p> <br><br> -->
   </div>
 <a href="titles.php" style="font-size:20px; margin: 10px; float: right;" class="ui green button">Go to Virtual Labs</a><br><br><br>
 

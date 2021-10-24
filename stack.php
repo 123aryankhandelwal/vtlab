@@ -187,7 +187,7 @@ void main()
       <?php
         $servername = "localhost:3306";
         $db_username = "root";
-        $password = "1234";
+        $password = "";
         $dbname = "virtuallabsdsce";
 
         // Create connection
@@ -202,7 +202,7 @@ void main()
         $query = "select * from user_scores where usn='$usn' and topic_name='st'";
         $res=$conn->query($query);
         
-        if ($res->num_rows == 1)
+        if ($res->num_rows >=1)
         { 
           $row = $res->fetch_assoc();
           echo "Quiz already attemped!<br><br>Your score: ".$row["quiz_score"];
@@ -252,7 +252,10 @@ void main()
 editor.getSession().on("change", function () {
     textarea.val(editor.getSession().getValue());
 });
-  
+  //  function getcodeVal(){
+  //   var code = editor.getValue();
+  //   console.log(code);
+  //  }
 </script>
   
 </body>
