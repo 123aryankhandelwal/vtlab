@@ -83,7 +83,7 @@ if(session_status()==PHP_SESSION_NONE)
       <button class="ui icon dropdown button">
         <span class="text">Intro to Computer Organisation</span>
         <div class="menu">
-          <a class="item" href="cpu.php">How CPU works</a>
+          <a class="item" href="cpu1.php">How CPU works</a>
         </div>
       </button><br>
       <button class="ui icon dropdown button">
