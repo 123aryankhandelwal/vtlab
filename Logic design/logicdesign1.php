@@ -86,7 +86,7 @@
       <button class="ui icon dropdown button">
         <span class="text">Basics of logic design</span>
         <div class="menu">
-          <a class="item" href="stack.php">Boolean Algebra and</a>
+          <a class="item" href="Bool.php">Boolean Algebra and</a>
           <a class="item" href="infixtopostfix.php">K-Maps</a>
           <a class="item" href="ratmaze.php">Quine McClusky Method</a>
         </div>
